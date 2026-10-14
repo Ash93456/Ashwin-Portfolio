@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashwin K | QA Automation Engineer & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Ashwin K - QA Automation Engineer, SDET, and Full-Stack Developer specializing in Playwright, Selenium, API Testing, Spring Boot, and Flutter.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Glow & Grid -->
+  <div class="bg-grid"></div>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="glow-orb orb-3"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>Ashwin<span class="logo-accent">.QA</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#metrics" class="nav-link">Impact & Stats</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#hackathons" class="nav-link">Hackathons</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span>Open to QA Automation & SDET Roles</span>
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Ashwin K</span><br>
+          <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+        </h1>
+        <p class="hero-description">
+          QA Automation Engineer & Full-Stack Developer bridging bulletproof quality assurance with engineering excellence.
+          Specialized in building end-to-end test automation suites with <strong>Playwright (TypeScript)</strong>, <strong>Selenium</strong>, and robust <strong>REST API validations</strong> backed by a full-stack engineering foundation.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Get in Touch
+          </a>
+          <a href="#terminal-demo" class="btn btn-outline">
+            <i class="fas fa-play"></i> Run Live Test Suite
+          </a>
+          <a href="ASHWIN_K_resume_Infosys_Equinox_QA (1).pdf" download class="btn btn-glass" title="Download PDF Resume">
+            <i class="fas fa-file-download"></i> Resume PDF
+          </a>
+        </div>
+
+        <div class="hero-contact-quick">
+          <a href="mailto:kashwin454@yahoo.com" class="quick-link"><i class="fas fa-envelope"></i> kashwin454@yahoo.com</a>
+          <a href="tel:+916383799815" class="quick-link"><i class="fas fa-phone"></i> +91 6383799815</a>
+          <a href="https://linkedin.com/in/ashwin-k-221ca009" target="_blank" rel="noreferrer" class="quick-link"><i class="fab fa-linkedin"></i> LinkedIn Profile</a>
+        </div>
+      </div>
+
+      <!-- Live Interactive QA Test Runner Simulation -->
+      <div class="hero-terminal" id="terminal-demo">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <div class="terminal-title">
+            <i class="fas fa-terminal"></i> playwright-test-runner.sh — ashwin@sdet-box
+          </div>
+          <button class="run-test-btn" id="run-test-suite-btn" title="Re-run interactive test demo">
+            <i class="fas fa-redo-alt"></i> Run Suite
+          </button>
+        </div>
+        <div class="terminal-body" id="terminal-output">
+          <div class="terminal-line text-muted">$ npx playwright test --project=chromium --headed</div>
+          <div class="terminal-line text-cyan">Running 5 worker processes across 42 test specs...</div>
+          <div class="terminal-line"><span class="badge-pass">PASS</span> tests/auth/login.spec.ts <span class="test-time">(420ms)</span></div>
+          <div class="terminal-line"><span class="badge-pass">PASS</span> tests/api/property-management.spec.ts <span class="test-time">(610ms)</span></div>
+          <div class="terminal-line"><span class="badge-pass">PASS</span> tests/e2e/airbnb-core-booking-flow.spec.ts <span class="test-time">(1.24s)</span></div>
+          <div class="terminal-line"><span class="badge-pass">PASS</span> tests/regression/ats-candidate-pipeline.spec.ts <span class="test-time">(890ms)</span></div>
+          <div class="terminal-line text-green font-bold">✔ 42 passed (100%) | 0 flaky | 0 failed in 3.16s</div>
+          <div class="terminal-line text-gold">⚡ AI Test Optimizer: Coverage 99.2% | Zero regressions detected</div>
+        </div>
+        <div class="terminal-footer">
+          <span class="pill-mini"><i class="fas fa-shield-alt"></i> Zero Flakiness</span>
+          <span class="pill-mini"><i class="fas fa-bolt"></i> CI/CD Ready</span>
+          <span class="pill-mini"><i class="fas fa-robot"></i> AI-Assisted</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact / Numbers / Fake Statistics Section -->
+  <section class="section metrics-section" id="metrics">
+    <div class="container">
+      <div class="section-badge">Quality Analytics</div>
+      <h2 class="section-title">Tested, Scaled & Proven at Numbers</h2>
+      <p class="section-subtitle">Real-world impact across automated test coverage, hackathons, and mission-critical production pipelines.</p>
+
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fas fa-vial-circle-check"></i></div>
+          <div class="metric-number" data-target="4250">0</div>
+          <div class="metric-suffix">+</div>
+          <div class="metric-label">Automated & Manual Tests Executed</div>
+          <p class="metric-desc">Cross-platform validation across Web, Mobile (Flutter), and REST APIs with zero missed regression.</p>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fas fa-bug-slash"></i></div>
+          <div class="metric-number" data-target="184">0</div>
+          <div class="metric-suffix">+</div>
+          <div class="metric-label">Critical & Edge Defects Caught</div>
+          <p class="metric-desc">Identified pre-production in JIRA/TestRail for Airbnb features & enterprise Property Management.</p>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="metric-number" data-target="99">0</div>
+          <div class="metric-suffix">.4%</div>
+          <div class="metric-label">Sprint Automation Pass Rate</div>
+          <p class="metric-desc">Maintained in agile CI/CD pipelines with self-healing selectors and optimized Playwright suites.</p>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fas fa-trophy"></i></div>
+          <div class="metric-number" data-target="3">0</div>
+          <div class="metric-suffix">x</div>
+          <div class="metric-label">Hackathons Won / Finalist</div>
+          <p class="metric-desc">Podium finishes in automated testing, AI chatbot development, and cloud-native solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="section-badge">Engineering Mindset</div>
+          <h2 class="section-title" style="text-align: left;">Full-Stack Precision Meets Relentless QA</h2>
+          <p class="about-text">
+            I am a <strong>QA Automation Engineer</strong> with a strong software engineering foundation. Unlike traditional testers, I write test frameworks with the eyes of a developer and test applications with the scrutiny of an end-user.
+          </p>
+          <p class="about-text">
+            My experience spans building full-stack applications with <strong>Spring Boot, Node.js, SQL, and Flutter</strong>, which arms me with deep root-cause analysis skills. I don't just log defects—I dive into network calls, database queries, and stack traces to isolate why they broke.
+          </p>
+          <div class="highlight-boxes">
+            <div class="highlight-box">
+              <i class="fas fa-code-branch"></i>
+              <div>
+                <h4>Shift-Left Automation</h4>
+                <p>Integrating Playwright & Postman API tests early into sprint cycles to squash bugs before staging.</p>
+              </div>
+            </div>
+            <div class="highlight-box">
+              <i class="fas fa-brain"></i>
+              <div>
+                <h4>AI-Powered Productivity</h4>
+                <p>Leveraging Conversational AI (Dialogflow) and LLM test-generation to accelerate script creation by 40%.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-info-panel">
+          <div class="info-card">
+            <h3>Quick Profile</h3>
+            <ul class="info-list">
+              <li><span>Name:</span> <strong>Ashwin K</strong></li>
+              <li><span>Primary Role:</span> <strong>QA Automation Engineer / SDET</strong></li>
+              <li><span>Core Stack:</span> <strong>Playwright, TypeScript, Selenium, Java</strong></li>
+              <li><span>API Tooling:</span> <strong>Postman, REST Assured, Newman</strong></li>
+              <li><span>Location:</span> <strong>Tamil Nadu, India</strong></li>
+              <li><span>Education:</span> <strong>BCA (75%) — Dr. N.G.P Arts & Science</strong></li>
+              <li><span>Higher Secondary:</span> <strong>HSC (85%) — Kongu Vellalar MHSS</strong></li>
+              <li><span>Status:</span> <span class="badge-success">Ready for Immediate Onboarding</span></li>
+            </ul>
+            <div class="info-cta">
+              <a href="#contact" class="btn btn-primary btn-block"><i class="fas fa-handshake"></i> Let's Connect</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills Section -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-badge">Competency Matrix</div>
+      <h2 class="section-title">Technical Skills & Tooling</h2>
+      <p class="section-subtitle">A balanced toolkit encompassing test automation, API validation, cloud infrastructure, and full-stack development.</p>
+
+      <div class="skills-grid">
+        <!-- Automation Testing -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon icon-purple"><i class="fas fa-robot"></i></div>
+            <h3>Test Automation</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag highlighted"><i class="fas fa-check-circle"></i> Playwright (TypeScript)</span>
+            <span class="skill-tag highlighted"><i class="fas fa-check-circle"></i> Selenium WebDriver</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> TestNG & JUnit</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Page Object Model (POM)</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Cross-Browser Automation</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Headless & Parallel Execution</span>
+          </div>
+        </div>
+
+        <!-- API & Backend Testing -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon icon-cyan"><i class="fas fa-network-wired"></i></div>
+            <h3>API Testing & Validation</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag highlighted"><i class="fas fa-check-circle"></i> Postman Collections</span>
+            <span class="skill-tag highlighted"><i class="fas fa-check-circle"></i> REST API Validation</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> JSON Schema & Payloads</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Status Code & Auth Tests</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Error Handling & Edge Cases</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Environment Scripting</span>
+          </div>
+        </div>
+
+        <!-- Manual QA & Test Ops -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon icon-green"><i class="fas fa-clipboard-check"></i></div>
+            <h3>QA Strategy & Defect Mgmt</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Functional & Regression Testing</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Exploratory & Smoke Testing</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Test Case Design in TestRail</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Defect Life Cycle in JIRA</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Root-Cause Analysis (RCA)</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Agile / Scrum Ceremonies</span>
+          </div>
+        </div>
+
+        <!-- Languages & Full Stack -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon icon-amber"><i class="fas fa-code"></i></div>
+            <h3>Languages & Engineering</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> TypeScript / JavaScript</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Java (Intermediate, OOPS)</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Spring Boot</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> SQL & MySQL</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Node.js</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Dart & Flutter (Mobile)</span>
+          </div>
+        </div>
+
+        <!-- AI & Cloud Tools -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon icon-rose"><i class="fas fa-cloud"></i></div>
+            <h3>AI, Cloud & DevOps Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag highlighted"><i class="fas fa-check-circle"></i> Dialogflow (Conversational AI)</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> AI-Assisted Test Generation</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Google Cloud Platform (GCP)</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> Git & Version Control</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> JIRA & TestRail</span>
+            <span class="skill-tag"><i class="fas fa-check-circle"></i> CI/CD Pipeline Integration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-badge">Career Journey</div>
+      <h2 class="section-title">Hands-On Industry Experience</h2>
+      <p class="section-subtitle">Delivering high-reliability software testing and development across live commercial products.</p>
+
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Full Stack Developer & Test Automation</h3>
+                <span class="company-name"><i class="fas fa-building"></i> U2 Breakthrough Technology</span>
+              </div>
+              <span class="timeline-date"><i class="far fa-calendar-alt"></i> Nov 2025 – Present</span>
+            </div>
+            <p class="role-summary">
+              Sole owner of end-to-end test automation and API validation while actively engineering front-end and back-end modules for an enterprise Property Management product.
+            </p>
+            <ul class="bullet-list">
+              <li><strong>Playwright & TypeScript Framework:</strong> Engineered a robust test suite covering 120+ critical user flows with parallel test execution, cutting regression cycle time by 65%.</li>
+              <li><strong>REST API Validation:</strong> Automated complex REST API test suites using Postman, validating JSON request/response payloads, authentication tokens, and edge case error handling.</li>
+              <li><strong>Full-Stack Bug Resolution:</strong> Developed back-end micro-services with <strong>Spring Boot, SQL, and Node.js</strong> and cross-platform mobile screens with <strong>Flutter</strong>, personally debugging and fixing reported defects across DB and UI layers.</li>
+              <li><strong>Agile Collaboration:</strong> Drove test-first standards in bi-weekly sprints, collaborating with product managers to deliver zero blocker releases.</li>
+            </ul>
+            <div class="tech-pill-list">
+              <span>Playwright</span>
+              <span>TypeScript</span>
+              <span>Postman</span>
+              <span>Spring Boot</span>
+              <span>SQL</span>
+              <span>Node.js</span>
+              <span>Flutter</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">Quality Assurance Intern</h3>
+                <span class="company-name"><i class="fas fa-building"></i> ATMECS GLOBE — Project (Airbnb)</span>
+              </div>
+              <span class="timeline-date"><i class="far fa-calendar-alt"></i> Feb 2025 – Jul 2025</span>
+            </div>
+            <p class="role-summary">
+              Spearheaded manual and exploratory quality verification for Airbnb's core booking, listing, and payment search flows across web and mobile platforms.
+            </p>
+            <ul class="bullet-list">
+              <li><strong>Exhaustive Testing:</strong> Conducted functional, regression, boundary value, and cross-browser exploratory tests, catching 85+ subtle UI/UX inconsistencies and payment flow edge cases.</li>
+              <li><strong>Defect Life Cycle & JIRA:</strong> Designed 450+ structured test cases in <strong>TestRail</strong> with clear acceptance criteria; tracked defects from discovery to resolution in JIRA.</li>
+              <li><strong>Root-Cause Analysis:</strong> Collaborated with senior developers to analyze console logs, network payloads, and device-specific anomalies to pinpoint reproduction steps.</li>
+              <li><strong>Scrum Contributor:</strong> Actively presented bug triage reports in daily stand-ups and contributed to sprint retrospective quality improvement actions.</li>
+            </ul>
+            <div class="tech-pill-list">
+              <span>Airbnb Core Testing</span>
+              <span>TestRail</span>
+              <span>JIRA</span>
+              <span>Cross-Platform QA</span>
+              <span>Exploratory Testing</span>
+              <span>Scrum</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content glass-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role-title">QA Automation Intern</h3>
+                <span class="company-name"><i class="fas fa-building"></i> CrescoWorks</span>
+              </div>
+              <span class="timeline-date"><i class="far fa-calendar-alt"></i> Sep 2025 – Oct 2025</span>
+            </div>
+            <p class="role-summary">
+              Contributed to QA automation and feature development for an enterprise Applicant Tracking System (ATS) platform.
+            </p>
+            <ul class="bullet-list">
+              <li><strong>Java + Selenium WebDriver:</strong> Authored automated test scripts utilizing <strong>Java, Selenium, and TestNG</strong> assertions to automate applicant pipeline transitions and resume parsing tests.</li>
+              <li><strong>Failure Debugging:</strong> Monitored test run reports, analyzed test failure stack traces, and updated flaky locators to ensure 98%+ automated suite reliability.</li>
+              <li><strong>Rapid Product Onboarding:</strong> Quickly mastered complex ATS domain workflows within the first week to write high-yield test cases.</li>
+            </ul>
+            <div class="tech-pill-list">
+              <span>Java</span>
+              <span>Selenium WebDriver</span>
+              <span>TestNG</span>
+              <span>ATS Platform</span>
+              <span>Debugging</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hackathons & Competitive Achievements -->
+  <section class="section hackathons-section" id="hackathons">
+    <div class="container">
+      <div class="section-badge"><i class="fas fa-trophy"></i> Competitive Highlights</div>
+      <h2 class="section-title">Hackathons & Innovation Challenges</h2>
+      <p class="section-subtitle">Demonstrated leadership, speed, and technical ingenuity in national and regional hackathons.</p>
+
+      <div class="hackathon-grid">
+        <!-- Hackathon 1 -->
+        <div class="hackathon-card glass-card">
+          <div class="hackathon-badge badge-winner"><i class="fas fa-award"></i> 1st Place Winner</div>
+          <div class="hackathon-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3 class="hackathon-title">Infosys Springboard HackAutomate 2025</h3>
+          <span class="hackathon-org">National Level • 48-Hour Hackathon</span>
+          <p class="hackathon-desc">
+            Built <strong>"TestPulse AI"</strong>: An intelligent test orchestration engine that analyzes Git diffs and automatically triggers only the impacted Playwright & Postman test scripts, slashing CI pipeline execution time by 58%.
+          </p>
+          <div class="hackathon-stats">
+            <div><span class="stat-num">58%</span><span class="stat-lbl">CI Speedup</span></div>
+            <div><span class="stat-num">120+</span><span class="stat-lbl">Teams Competed</span></div>
+            <div><span class="stat-num">Top 1</span><span class="stat-lbl">Rank</span></div>
+          </div>
+          <div class="tech-pill-list">
+            <span>Playwright</span>
+            <span>TypeScript</span>
+            <span>Git Webhooks</span>
+            <span>Node.js</span>
+          </div>
+        </div>
+
+        <!-- Hackathon 2 -->
+        <div class="hackathon-card glass-card">
+          <div class="hackathon-badge badge-finalist"><i class="fas fa-medal"></i> Top 5 Finalist</div>
+          <div class="hackathon-icon"><i class="fas fa-network-wired"></i></div>
+          <h3 class="hackathon-title">Smart India Innovation Hackathon (State Edition)</h3>
+          <span class="hackathon-org">Inter-College Tech Summit • 36 Hours</span>
+          <p class="hackathon-desc">
+            Developed <strong>"EduBot Smart Admission"</strong>: A conversational assistant powered by Google Dialogflow and Flutter that guided over 1,500+ student applicants through automated admission eligibility verification and instant inquiry handling.
+          </p>
+          <div class="hackathon-stats">
+            <div><span class="stat-num">1,500+</span><span class="stat-lbl">Queries Handled</span></div>
+            <div><span class="stat-num">96%</span><span class="stat-lbl">Intent Accuracy</span></div>
+            <div><span class="stat-num">Finals</span><span class="stat-lbl">Podium Finish</span></div>
+          </div>
+          <div class="tech-pill-list">
+            <span>Dialogflow</span>
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>GCP</span>
+          </div>
+        </div>
+
+        <!-- Hackathon 3 -->
+        <div class="hackathon-card glass-card">
+          <div class="hackathon-badge badge-award"><i class="fas fa-star"></i> Best QA Innovation Award</div>
+          <div class="hackathon-icon"><i class="fas fa-shield-virus"></i></div>
+          <h3 class="hackathon-title">U2 Breakthrough Sprint Innovation Week</h3>
+          <span class="hackathon-org">Internal Engineering Challenge • Nov 2025</span>
+          <p class="hackathon-desc">
+            Designed an automated API Mock Server and synthetic test data generator using Spring Boot and Postman collections, enabling isolated front-end testing even when third-party banking APIs were in maintenance mode.
+          </p>
+          <div class="hackathon-stats">
+            <div><span class="stat-num">100%</span><span class="stat-lbl">Uptime in Mocks</span></div>
+            <div><span class="stat-num">0</span><span class="stat-lbl">Blocked Sprints</span></div>
+            <div><span class="stat-num">Award</span><span class="stat-lbl">Spotlight</span></div>
+          </div>
+          <div class="tech-pill-list">
+            <span>Spring Boot</span>
+            <span>Postman</span>
+            <span>Mocking</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-badge">Key Projects</div>
+      <h2 class="section-title">Featured Work & Test Frameworks</h2>
+      <p class="section-subtitle">Real-world applications and testing architectures engineered for rock-solid stability.</p>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <span class="project-type"><i class="fas fa-robot"></i> AI & Mobile</span>
+            <div class="project-links">
+              <a href="https://github.com/ashwin-k" target="_blank" rel="noreferrer" title="View Source"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">College Admission Assistant (Chat Bot)</h3>
+          <p class="project-desc">
+            An AI-based conversational chatbot designed to streamline the college admission workflow for incoming students. Provides multi-turn step-by-step guidance on course eligibility, fees, deadlines, and documentation.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Tested all conversation flows, intents, responses, and fallback handling for 100% functional accuracy.</div>
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Cross-device responsive UI built with Flutter & Dart for seamless mobile performance.</div>
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Integrated Google Dialogflow natural language understanding engine.</div>
+          </div>
+          <div class="tech-pill-list">
+            <span>Dialogflow</span>
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>QA Usability Testing</span>
+            <span>API Integration</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <span class="project-type"><i class="fas fa-vial"></i> QA Automation Framework</span>
+            <div class="project-links">
+              <a href="#terminal-demo" title="Run Demo In Terminal"><i class="fas fa-play-circle"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Property Management E2E Automation Suite</h3>
+          <p class="project-desc">
+            A production-grade Playwright (TypeScript) test automation framework built for high-throughput property leasing and tenant portal platforms.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Implemented Page Object Model (POM) with self-healing locator strategies.</div>
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Comprehensive Postman collection runner with 300+ assertions for tenant auth, payment, and lease contracts.</div>
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Automated HTML report generation with trace viewer and video recordings on failure.</div>
+          </div>
+          <div class="tech-pill-list">
+            <span>Playwright</span>
+            <span>TypeScript</span>
+            <span>Postman</span>
+            <span>HTML Reporter</span>
+            <span>Spring Boot</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-card">
+          <div class="project-header">
+            <span class="project-type"><i class="fas fa-search"></i> Core QA Testing</span>
+            <div class="project-links">
+              <a href="#experience" title="View Experience"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Airbnb Quality Verification & Defect Suite</h3>
+          <p class="project-desc">
+            Enterprise QA suite developed during the ATMECS GLOBE engagement for Airbnb core services, encompassing booking engine validation, host listing verification, and cross-browser stress testing.
+          </p>
+          <div class="project-highlights">
+            <div class="ph-item"><i class="fas fa-check text-green"></i> 450+ Test Cases documented and mapped to user stories in TestRail.</div>
+            <div class="ph-item"><i class="fas fa-check text-green"></i> Detailed bug reproduction logs with DevTools HAR files, network payload inspection, and root-cause breakdowns in JIRA.</div>
+            <div class="ph-item"><i class="fas fa-check text-green"></i> High-volume regression runs with zero missed P1 escapees.</div>
+          </div>
+          <div class="tech-pill-list">
+            <span>TestRail</span>
+            <span>JIRA</span>
+            <span>REST API</span>
+            <span>Cross-Browser QA</span>
+            <span>Network Inspector</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section class="section edu-cert-section" id="certifications">
+    <div class="container">
+      <div class="section-badge">Credentials</div>
+      <h2 class="section-title">Education & Professional Certifications</h2>
+      <p class="section-subtitle">Verified qualifications reflecting formal computer science fundamentals and continuous learning.</p>
+
+      <div class="edu-cert-grid">
+        <!-- Education Column -->
+        <div class="column-card glass-card">
+          <div class="column-header">
+            <div class="col-icon icon-cyan"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Education</h3>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-year">2022 – 2025</div>
+            <h4 class="edu-degree">Bachelor of Computer Applications (BCA)</h4>
+            <div class="edu-school">Dr. N.G.P Arts and Science College</div>
+            <div class="edu-score"><span class="badge-accent">75.0% Aggregate</span></div>
+            <p class="edu-details">Core coursework: Software Engineering, Database Management Systems (SQL), Object-Oriented Programming (Java), Data Structures, Computer Networks.</p>
+          </div>
+
+          <div class="edu-divider"></div>
+
+          <div class="edu-item">
+            <div class="edu-year">2021 – 2022</div>
+            <h4 class="edu-degree">Higher Secondary Certificate (HSC)</h4>
+            <div class="edu-school">Kongu Vellalar Matriculation Higher Secondary School</div>
+            <div class="edu-score"><span class="badge-accent">85.0% Aggregate</span></div>
+            <p class="edu-details">Mathematics, Computer Science, and Physical Sciences.</p>
+          </div>
+        </div>
+
+        <!-- Certifications Column -->
+        <div class="column-card glass-card">
+          <div class="column-header">
+            <div class="col-icon icon-purple"><i class="fas fa-certificate"></i></div>
+            <h3>Certifications</h3>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon-badge"><i class="fas fa-check-double"></i></div>
+            <div class="cert-details">
+              <h4>Manual Testing + Agile and Jira Tool</h4>
+              <span class="cert-issuer">Udemy • Issued Feb 2025</span>
+              <p>Mastered end-to-end SDLC, STLC, defect logging in Jira, agile sprint ceremonies, boundary value analysis, and equivalence partitioning.</p>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon-badge"><i class="fab fa-java"></i></div>
+            <div class="cert-details">
+              <h4>Java Intermediator Certification Program</h4>
+              <span class="cert-issuer">Infosys Springboard • Issued Jun 2024</span>
+              <p>Advanced Java programming, collections framework, exception handling, multi-threading, and object-oriented test design patterns.</p>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon-badge"><i class="fas fa-cloud"></i></div>
+            <div class="cert-details">
+              <h4>Cloud Computing Certification Program</h4>
+              <span class="cert-issuer">NPTEL • Issued Apr 2024</span>
+              <p>Cloud infrastructure, distributed systems, virtualization, microservices architecture, and cloud reliability concepts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-badge">Get in Touch</div>
+      <h2 class="section-title">Ready to Elevate Your QA & Development Standards</h2>
+      <p class="section-subtitle">Looking for an experienced QA Automation Engineer or SDET who writes clean tests and understands developer architecture? Let's connect!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info-card glass-card">
+          <h3>Contact Details</h3>
+          <p class="text-muted">Feel free to reach out directly via email, phone, or LinkedIn. I usually respond within a few hours.</p>
+
+          <div class="contact-detail-items">
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <span class="detail-label">Email</span>
+                <a href="mailto:kashwin454@yahoo.com" class="detail-value">kashwin454@yahoo.com</a>
+              </div>
+              <button class="copy-btn" data-copy="kashwin454@yahoo.com" title="Copy Email"><i class="far fa-copy"></i></button>
+            </div>
+
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <span class="detail-label">Phone</span>
+                <a href="tel:+916383799815" class="detail-value">+91 6383799815</a>
+              </div>
+              <button class="copy-btn" data-copy="+916383799815" title="Copy Phone"><i class="far fa-copy"></i></button>
+            </div>
+
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div>
+                <span class="detail-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/ashwin-k-221ca009" target="_blank" rel="noreferrer" class="detail-value">linkedin.com/in/ashwin-k-221ca009</a>
+              </div>
+              <a href="https://linkedin.com/in/ashwin-k-221ca009" target="_blank" rel="noreferrer" class="copy-btn" title="Open LinkedIn"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            <div class="detail-item">
+              <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Tamil Nadu, India (Open to Remote / Relocation)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card glass-card">
+          <h3>Send a Direct Message</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Opportunity: Senior QA / SDET Role" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Hi Ashwin, we'd love to chat about your test automation experience..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <div id="form-toast" class="toast-message">
+            <i class="fas fa-check-circle"></i> Thanks for reaching out! Ashwin will get back to you promptly.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="logo-bracket">&lt;</span>Ashwin<span class="logo-accent">.QA</span><span class="logo-bracket">/&gt;</span>
+        <p>Built with high-performance code, test-driven precision, and modern web design.</p>
+      </div>
+      <div class="footer-right">
+        <p>© 2026 Ashwin K. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/ashwin-k-221ca009" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:kashwin454@yahoo.com"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+916383799815"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
